@@ -9,7 +9,7 @@
   border-radius: 10px;
   overflow: hidden;
   position: relative;
-  background-color: red;
+  background-color: gray;
   margin: auto;
 }
 .imgs_slides {
@@ -57,4 +57,26 @@
 
 .navigation__btn:hover {
   background: #de6a23;
+}
+
+/* // media query */
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .slider {
+    height: 350px;
+  }
+}
+@media only screen and (max-width: 767px) and (min-width: 576px) {
+  .slider {
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .slider {
+    height: 200px;
+  }
 }
