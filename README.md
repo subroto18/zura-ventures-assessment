@@ -1,4 +1,4 @@
-# Product Show backend
+# Product Display App Backend
 
 This is backend of simple product search and show project.
 
