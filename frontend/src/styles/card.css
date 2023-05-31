@@ -1,0 +1,38 @@
+.card {
+  background-color: #666;
+  padding: 10px;
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.card__title {
+  font-size: 1.3rem;
+  margin: 5px 0px;
+}
+.card__stock__rating__div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__option__outer {
+  margin: 5px 0px;
+}
+
+/* .card__option {
+  display: flex;
+} */
+
+.card__option_inner {
+  display: flex;
+  margin-bottom: 10px;
+}
+.card__option__name {
+  margin-right: 10px;
+}
+
+.card__img {
+  height: 200px;
+  padding: 10px;
+  border-radius: 10px;
+}
