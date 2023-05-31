@@ -1,4 +1,4 @@
-# Product Display App Backend
+# Product Display App 
 
 This is a simple product search and show project built with react along with vite.
 
