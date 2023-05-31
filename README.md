@@ -1,6 +1,6 @@
 # Product Display App Backend
 
-This is backend of simple product search and show project.
+This is a simple product search and show project built with react along with vite.
 
 ## Installation
 
@@ -8,6 +8,8 @@ This is backend of simple product search and show project.
 npm install
 npm run dev
 ```
+
+## Backend installation
 
 ## how to use
 
