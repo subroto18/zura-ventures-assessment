@@ -17,7 +17,7 @@ export const HomeSlider = () => {
   return (
     <div className={style.slider__section}>
       <div className={style.slider}>
-        <div class={style.imgs_slides}>
+        <div className={style.imgs_slides}>
           {/* // radio button  */}
           {sliderArray.map((img, index) => {
             return (
@@ -35,7 +35,7 @@ export const HomeSlider = () => {
 
           {sliderArray.map((img) => {
             return (
-              <div key={img} class={`first ${style.slide}`}>
+              <div key={img} className={`first ${style.slide}`}>
                 <img src={img} alt="slider image" />
               </div>
             );
@@ -47,8 +47,8 @@ export const HomeSlider = () => {
             return (
               <label
                 key={img}
-                for={`radio${index}`}
-                class={style.navigation__btn}
+                htmlFor={`radio${index}`}
+                className={style.navigation__btn}
               ></label>
             );
           })}

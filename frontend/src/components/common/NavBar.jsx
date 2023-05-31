@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import style from "../../styles/navbar.module.css";
 import Api from "../../api/Api";
-import axios from "axios";
 import { useDispatch } from "react-redux";
 import { updateProductStatus } from "../../store/slices/productSlice";
 
@@ -67,8 +66,6 @@ export const NavBar = () => {
         setSearchLoading(false);
         setSearchProduct(res.data);
         setSearchApiError(false);
-
-        console.log(res.data);
       })
       .catch((error) => {
         setSearchLoading(false);

@@ -11,7 +11,6 @@ export const productSlice = createSlice({
   initialState,
   reducers: {
     updateProductStatus: (state, action) => {
-      console.log(action, "action");
       state.productApiloading = action.payload.loading;
       state.productApiFailed = action.payload.apiError;
       state.productData = action.payload.data;

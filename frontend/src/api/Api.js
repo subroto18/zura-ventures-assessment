@@ -10,7 +10,7 @@ export default () => {
   );
 
   let Api = axios.create({
-    baseURL: "http://localhost:5001/v1",
+    baseURL: "https://zura-venture-assessment-lti1.onrender.com/v1",
   });
 
   return Api;

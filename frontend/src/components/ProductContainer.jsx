@@ -1,7 +1,7 @@
 import React from "react";
 import style from "../styles/cardContainer.module.css";
 import { useSelector } from "react-redux";
-import { RAMDOM_INDEX } from "../utils/helper";
+
 import { ProductCard } from "./ProductCard";
 export const ProductContainer = () => {
   const { productApiloading, productApiFailed, productData } = useSelector(
@@ -24,7 +24,7 @@ export const ProductContainer = () => {
             {productData.map((item) => {
               return (
                 <div
-                  key={item.__id}
+                  key={item._id}
                   className="col-lg-2 col-md-4 col-sm-6 col-xs-12"
                 >
                   <ProductCard data={item} />
